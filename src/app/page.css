@@ -9,14 +9,7 @@
 }
 
 .content {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* dikey ortala */
-    align-items: center;
-    /* yatay ortala */
-    overflow: hidden;
+    margin-top: -3.2rem;
 }
 
 
@@ -39,7 +32,7 @@
 }
 
 .footer {
-    font-size: 0.875rem;
+    font-size: 0.8rem;
     color: rgba(196, 196, 196, 0.6);
     user-select: none;
 }
