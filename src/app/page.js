@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <ViewportHeightSetter />
-      <div className="relative min-h-screen overflow-hidden font-[family-name:var(--font-geist-sans)] max-w-screen-sm w-full mx-auto">
+      <div className=" main-container relative min-h-screen overflow-hidden font-[family-name:var(--font-geist-sans)] max-w-screen-sm w-full mx-auto">
         <BackgroundVideo />
         <div className="grid grid-rows-[100px_1fr_20px] items-center justify-items-center min-h-screen p-5 pb-8 gap-12 sm:p-20 relative z-10">
           <main className="flex flex-col gap-[50px] row-start-2 items-center sm:items-center">
