@@ -26,11 +26,19 @@ body {
 }
 
 html,
-body,
-#__next {
+body {
   height: 100%;
   margin: 0;
   padding: 0;
+  overflow: hidden;
+}
+
+#__next,
+.app-container {
+  height: 100%;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
 }
 
 .main-container {
