@@ -1,0 +1,25 @@
+.video-bg {
+    filter: brightness(0.23) blur(2px);
+}
+
+.icon-grid a {
+    color: rgb(194, 194, 194);
+    transition: color 0.5s ease;
+}
+
+.icon-grid a:hover {
+    color: #8e9196;
+}
+
+.icon-grid a:active {
+    transform: scale(0.97);
+}
+
+.logo-image {
+    transition: filter 0.5s ease;
+    filter: invert(1) brightness(0.8);
+}
+
+.footer {
+    color: #7c7c7c;
+}
