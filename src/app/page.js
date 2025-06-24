@@ -44,7 +44,7 @@ export default function Home() {
                 <FaWhatsapp />
               </a>
               <a
-                href="tel:+905551112233"
+                href="tel:+905325660586"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex justify-center hover:text-gray-300 transition-colors"
