@@ -37,9 +37,7 @@
     user-select: none;
 }
 
-.main-container {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+.no-scroll {
+    height: calc(var(--vh, 1vh) * 100);
     overflow: hidden;
 }

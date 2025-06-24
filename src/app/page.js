@@ -9,7 +9,7 @@ import ViewportHeightSetter from "./components/ViewportHeight";
 export default function Home() {
 
   return (
-    <>
+    <div className="no-scroll relative max-w-screen-sm w-full mx-auto">
       <ViewportHeightSetter />
       <div className=" main-container relative min-h-screen overflow-hidden font-[family-name:var(--font-geist-sans)] max-w-screen-sm w-full mx-auto">
         <BackgroundVideo />
@@ -74,6 +74,6 @@ export default function Home() {
           </footer>
         </div>
       </div>
-    </>
+    </div>
   );
 }
