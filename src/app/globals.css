@@ -24,16 +24,3 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
-
-#__next,
-.main-container {
-  height: 100%;
-  width: 100vw;
-  overflow: hidden;
-  position: relative;
-}
-
-.main-container {
-  height: calc(var(--vh, 1vh) * 100);
-  overflow: hidden;
-}
